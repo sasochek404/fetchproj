@@ -1,8 +1,3 @@
-/*
- * Минимальный fetch в духе простых скриптов: цвета, ascii слева, строки инфо справа.
- * Без popen, malloc и кэша — только fopen, sysinfo, uname, opendir.
- */
-
 #define _POSIX_C_SOURCE 200809L
 
 #include <dirent.h>
