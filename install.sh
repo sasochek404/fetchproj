@@ -2,8 +2,8 @@
 set -e
 
 cc -o2 main.c -o fetchproj
-chmod +x /usr/local/bin/fetchproj
 sudo mv fetchproj /usr/local/bin/fetchproj
+chmod +x /usr/local/bin/fetchproj
 
 cat << "EOF"
  ___              _           _  _            _  _
